@@ -36,7 +36,9 @@ Overall and condition-specific cell type proportions were analyzed. A T-test was
 ` proportions.R `
 
 ### 6. Subtype Identifications
-In the merged dataset, each cell type is reclustered to identify distint molecular subtypes. For each subtype, a list of DE and marker genes are generated to determine a specific cell subset (ex: dopaminergic neurons, projection neurons) or a behaviorally driven state (ex: premyelinating oligodendrocytes, stress responding oligodendrocytes). For clusters that could not be identified from markers alone, DE genes were input into a pathway analysis software providing GEO and KEGG pathway terms. The markers and/or pathway terms informing the naming of each subcluster for downstream processing are detailed in the document 'Subcluster_Identification.pdf' in the 'Resources' tab.
+In the merged dataset, each cell type is reclustered to identify distint molecular subtypes. For each subtype, a list of DE and marker genes are generated to determine a specific cell subset (ex: dopaminergic neurons, projection neurons) or a behaviorally driven state (ex: premyelinating oligodendrocytes, stress responding oligodendrocytes). For clusters that could not be identified from markers alone, DE genes were input into a pathway analysis software providing GEO and KEGG pathway terms. The markers and/or pathway terms informing the naming of each subcluster for downstream processing are detailed in the document 'subclustering.md' in the 'resources' tab.
 
 ` subtyping.R `
 
+### 7. DE Gene Analysis
+Differentially expressed genes, pathways, and transposable elements are detailed in 'de_genes.md'. 
