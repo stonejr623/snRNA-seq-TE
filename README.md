@@ -41,4 +41,4 @@ In the merged dataset, each cell type is reclustered to identify distint molecul
 ` subtyping.R `
 
 ### 7. DE Gene Analysis
-Differentially expressed genes, pathways, and transposable elements are detailed in 'de_genes.md'. 
+Differentially expressed genes, pathways, and transposable elements are detailed in 'de_genes.md' in the 'resources' tab. A summary file of conclusions are included in 'results_summary.md' in the 'results' tab. 
