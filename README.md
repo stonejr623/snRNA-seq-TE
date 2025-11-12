@@ -40,5 +40,12 @@ In the merged dataset, each cell type is reclustered to identify distint molecul
 
 ` subtyping.R `
 
-### 7. DE Gene Analysis
-Differentially expressed genes, pathways, and transposable elements are detailed in 'de_genes.md' in the 'resources' tab. A summary file of conclusions are included in 'results_summary.md' in the 'results' tab. 
+### 7. DE Gene/TE Analysis
+Differentially expressed genes, pathways, and transposable elements are detailed in 'de_genes.md' in the 'resources' tab. A summary file of conclusions are included in 'results_summary.md' in the 'results' tab. HERVK was found to be a subcluster-specific marker for projection and glutamatergic neurons, synapse-associated oligodendrocytes and oxidative-stressed OPCs. However, none of these subclusters have a significant differences in proportion between control and PD cohorts. HERVK was also found to be downregulated in premyelinating and stress-responding oligodendrocytes of PD vs CTRL.
+
+For the purpose of this analysis, focusing in on dopaminergic neurons would provide the most significant evidence of TEs being involved in Parkinson's disease. While there are no significant differences in HERVK as markers or DE genes, various SINE elements were found to be downregulated in PD vs CTRL. 
+
+**The following are the large conclusions from this analysis:**
+1. There is differential expression of various cell subtypes between Parkinson's and control samples.
+2. HERVs serve as markers for several of these subtypes, and are downregulated in premyelinating and stress-responding oligodendrocytes in Parkinson's.
+3. Other TEs (SINE, LINE elements) are found to be differentially expressed in many of these subtypes.
