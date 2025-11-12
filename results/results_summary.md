@@ -3,7 +3,7 @@ HERVK9 downregulated in A0 (disease associated)
 
 HERVK Downregulated in O0 (premyelinating) and 02 (stress responding) oligodendrocytes
 
-![DE HERVs Table](results/TE_analysis/DE_HERVS.png)
+<img src="TE_analysis/DE_HERVs.png" alt="DE HERVs Table" width="500"/>
 
 
 ## Other DE TEs:
@@ -14,7 +14,7 @@ LINE elements:
 * Upregulated in projection neurons, homeostatic astrocytes, synapse-associated and degenerating oligodendrocytes, and endothelial cells
 * Downregulated in phagocytic reactive microglia, premyelinating oligodendrocytes
 
-![DE TEs Table](results/TE_analysis/DE_TEs.png)
+<img src="TE_analysis/DE_TEs.png" alt="DE TEs Table" width="600"/>
 
 ## HERVs as markers:
 * HERVH, HERVK9, HERVP71A, HERVK22, HERVL in A3 (homeostatic, structural support astrocytes)
@@ -31,7 +31,7 @@ LINE elements:
 
 Of these subclusters, Disease-Associated Microglia and Neuron-interacting OPCs are upregulated in PD, while Active/primed OPCs are upregulated in CTRL.
 
-![HERV Markers Table](results/TE_analysis/HERV_markers.png)
+<img src="TE_analysis/HERV_markers.png" alt="HERV Markers Table" width="600"/>
 
 ## Subclusters with Significant Differences
 Higher in CTRL: 
@@ -52,9 +52,10 @@ Higher in PD:
 * V1: pericytes
 * T0: CD8 Memory T Cells
 
-![DE Subclusters Table](results/TE_analysis/DE_subclusters.png)
+<img src="TE_analysis/DE_subclusters.png" alt="DE subclusters Table" width="400"/>
 
 ## Patterns in DE genes
+By reclustering the data for meaningful subtypes and improving quality control, additional informative patterns were able to be derived from the DE genes that were not detailed in the source publication. 
 
 KIF5C-AS1 downregulated in Parkinson’s in neurons, astrocytes, microglia, oligodendrocytes, and OPCs
 * Antisense RNA (likely blocks translation of mRNA)
@@ -76,11 +77,13 @@ Heat shock proteins upregulated in vascular cells, astrocytes, oligodendrocytes,
 SLC5A3 upregulated in astrocytes
 * sodium/myoinositol cotransporter
 * Promotes tumor progression, linked to chemoresistance, overexpressed in down syndrome, associated with degenerative change and inflammation in s-IBM (progressive muscle disease)
+     https://www.mdpi.com/2218-273X/10/4/521
 
 SLC38A2 upregulated in Oligodendrocytes (except in aging/nerodegenerative subcluster)
 * Neutral amino acid transport, glutamine transporter
 * Converts glutamate to glutamine, maintains balance
 * Overactive will decrease amount of glutamine available for signaling, neuropathological consequences
+     https://www.sciencedirect.com/science/article/pii/S0753332222006588
 
 ALDH1L1 downregulated in gabaergic neurons, RGCs, antigen-presenting microglia, and reactive OPCs
 * Aldehyde dehydrogenase
