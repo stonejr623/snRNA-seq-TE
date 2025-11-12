@@ -1,6 +1,10 @@
 ## HERVs as DE genes:
 HERVK9 downregulated in A0 (disease associated)
+
 HERVK Downregulated in O0 (premyelinating) and 02 (stress responding) oligodendrocytes
+
+![DE HERVs Table](results/TE_analysis/DE_HERVS.png)
+
 
 ## Other DE TEs:
 SINE elements (Alu, MER): 
@@ -8,7 +12,9 @@ SINE elements (Alu, MER):
 * Downregulated in degenerating and dopaminergic neurons, disease-associated astrocytes
 LINE elements: 
 * Upregulated in projection neurons, homeostatic astrocytes, synapse-associated and degenerating oligodendrocytes, and endothelial cells
-* Downregulated in phagocytic reactive microglia, premyelinating oligodendrocytes, 
+* Downregulated in phagocytic reactive microglia, premyelinating oligodendrocytes
+
+![DE TEs Table](results/TE_analysis/DE_TEs.png)
 
 ## HERVs as markers:
 * HERVH, HERVK9, HERVP71A, HERVK22, HERVL in A3 (homeostatic, structural support astrocytes)
@@ -24,6 +30,8 @@ LINE elements:
 * HERV17, HERVL in V2 (Vascular smooth muscle cells)
 
 Of these subclusters, Disease-Associated Microglia and Neuron-interacting OPCs are upregulated in PD, while Active/primed OPCs are upregulated in CTRL.
+
+![HERV Markers Table](results/TE_analysis/HERV_markers.png)
 
 ## Subclusters with Significant Differences
 Higher in CTRL: 
@@ -43,6 +51,8 @@ Higher in PD:
 * OP0: neuron-interacting oligodendrocyte precursors
 * V1: pericytes
 * T0: CD8 Memory T Cells
+
+![DE Subclusters Table](results/TE_analysis/DE_subclusters.png)
 
 ## Patterns in DE genes
 
